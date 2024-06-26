@@ -1,0 +1,44 @@
+.dataFetching {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 1.875rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Heading Styles */
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #e5e5e5;
+}
+
+/* Loading Message Styles */
+div.loading {
+    text-align: center;
+    font-size: 3.5em;
+    color: #007bff;
+}
