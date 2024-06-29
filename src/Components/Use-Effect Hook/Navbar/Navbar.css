@@ -1,0 +1,42 @@
+.navbar {
+    height: 5rem;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    transition: background-color 0.3s;
+}
+
+.navbar-scrolled {
+    background-color: #333;
+}
+
+.navbar-scrolled .navbar__logo, .navbar-scrolled .nav_menu{
+    color: white;
+}
+
+.navbar__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(31, 20, 16);
+}
+
+.nav_menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    column-gap: 2rem;
+    color: rgb(47, 47, 47);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.home,
+.about,
+.section {
+    height: 100vh;
+}
