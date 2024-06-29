@@ -42,3 +42,23 @@ div.loading {
     font-size: 3.5em;
     color: #007bff;
 }
+
+.counting{
+    height: auto;
+    width: auto;
+    padding: 1rem;
+    background-color: rgba(245, 111, 63, 0.853);
+    border-radius: 10px;
+}
+
+.button{
+    padding: 0.5rem 2rem;
+    background-color: #007bffdd;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px black;
+}
