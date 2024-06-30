@@ -1,0 +1,56 @@
+/* General container styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main styling to center the table */
+.main {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Table header styling */
+th,
+td {
+    padding: 12px 15px;
+}
+
+thead {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+/* Table body row styling */
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Table body row hover effect */
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.clearButton{
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    background-color: coral;
+    border: none;
+    outline: none;
+    color: white;
+}
