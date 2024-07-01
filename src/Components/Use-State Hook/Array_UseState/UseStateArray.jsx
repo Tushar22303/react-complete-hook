@@ -14,6 +14,13 @@ const UseStateArray = () => {
         setData([])
     }
 
+    const handleDelete = (id) => {
+        const myNewData = data.filter((currElem) => {
+            return currElem.id !== id
+        })
+        setData(myNewData)
+    }
+
     return (
         <>
             <div className="main">
@@ -24,6 +31,7 @@ const UseStateArray = () => {
                             <th>Name</th>
                             <th>Age</th>
                             <th>City</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -33,6 +41,7 @@ const UseStateArray = () => {
                                 <td>{item.name}</td>
                                 <td>{item.age}</td>
                                 <td>{item.city}</td>
+                                <td><button className='deleteButton' onClick={() => handleDelete(item.id)}>Delete</button></td>
                             </tr>
                         ))}
                     </tbody>

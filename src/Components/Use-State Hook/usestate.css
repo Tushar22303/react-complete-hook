@@ -8,7 +8,7 @@
     gap: 1.875rem;
 }
 
-.container .icon{
+.container .icon {
     border: 1px solid white;
     padding: 1rem;
     font-size: 2rem;
@@ -16,12 +16,12 @@
     cursor: pointer;
 }
 
-.container h2{
+.container h2 {
     font-size: 2.5rem;
     color: #fafafa;
 }
 
-.card{
+.card {
     height: auto;
     width: 350px;
     border: 1px solid #fafaf3;
@@ -30,28 +30,28 @@
     padding: 0.5rem;
 }
 
-.card__title{
+.card__title {
     text-align: center;
     border-bottom: 1px solid #fafaf3;
 }
 
-.form{
+.form {
     padding: 0.5rem 1.5rem;
 }
 
-.form .card__item{
+.form .card__item {
     display: flex;
     flex-direction: column;
     margin: 0.23rem 0;
 }
 
-.card__item label{
+.card__item label {
     color: white;
     margin-bottom: 0.2rem;
     font-weight: 600;
 }
 
-.card__item input{
+.card__item input {
     padding: 0.5rem;
     margin-bottom: 0.25rem;
     border-radius: 5px;
@@ -60,7 +60,7 @@
     outline: 0;
 }
 
-.btn{
+.bttn {
     padding: 0.5rem;
     width: 10rem;
     margin: auto;

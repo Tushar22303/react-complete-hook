@@ -18,7 +18,7 @@ const UseStateObject = () => {
             <div className="container">
                 <div className="main">
                     <h2>Name: {myObject.name}, Age: {myObject.age}, Degree: {myObject.degree}, City: {myObject.city}</h2>
-                    <button className='btn' onClick={handleChange}>Update</button>
+                    <button className='bttn' onClick={handleChange}>Update</button>
                 </div>
             </div>
         </>

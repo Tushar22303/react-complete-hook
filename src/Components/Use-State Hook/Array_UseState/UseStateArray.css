@@ -46,11 +46,23 @@ tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
 
-.clearButton{
-    padding: 0.5rem 2rem;
+.clearButton {
+    padding: 0.7rem 2rem;
     border-radius: 10px;
+    font-size: 1rem;
     background-color: coral;
     border: none;
     outline: none;
     color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 5px black;
+}
+
+.deleteButton{
+    background-color: rgb(252, 57, 57);
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
 }

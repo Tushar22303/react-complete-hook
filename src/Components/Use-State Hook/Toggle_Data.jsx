@@ -22,7 +22,7 @@ const Toggle_Data = () => {
             <div className="container">
                 <div className="main">
                     <h2>{name}</h2>
-                    <button className='btn' style={{ margin: "auto" }} onClick={handleChangeName}>
+                    <button className='bttn' style={{ margin: "auto" }} onClick={handleChangeName}>
                         Click Me
                     </button>
                 </div>
