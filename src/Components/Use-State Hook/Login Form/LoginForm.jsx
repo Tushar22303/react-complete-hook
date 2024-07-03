@@ -15,6 +15,9 @@ const LoginForm = () => {
         } else {
             const newEntry = { email: email, password: password };
             setForm([...form, newEntry])
+
+            setEmail("");
+            setPassword("")
         }
     }
 
@@ -39,7 +42,7 @@ const LoginForm = () => {
                 </form>
             </div>
 
-            <div className="container" style={{background: "white"}}>
+            <div className="container" style={{ background: "white" }}>
                 <div className="main">
                     <table>
                         <thead>

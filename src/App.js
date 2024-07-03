@@ -9,11 +9,13 @@ import Toggle_Data from './Components/Use-State Hook/Toggle_Data';
 import UseStateArray from './Components/Use-State Hook/Array_UseState/UseStateArray';
 import UseStateObject from './Components/Use-State Hook/Object_UseState/UseStateObject';
 import LoginForm from './Components/Use-State Hook/Login Form/LoginForm';
+import Practice1 from './Components/Use-Effect Hook/Practice1';
+import ActualSize from './Components/Use-Effect Hook/Actual Width/ActualSize';
 
 function App() {
   return (
     <>
-      <LoginForm />
+      <ActualSize />
     </>
   );
 }
