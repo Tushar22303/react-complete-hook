@@ -11,11 +11,12 @@ import UseStateObject from './Components/Use-State Hook/Object_UseState/UseState
 import LoginForm from './Components/Use-State Hook/Login Form/LoginForm';
 import Practice1 from './Components/Use-Effect Hook/Practice1';
 import ActualSize from './Components/Use-Effect Hook/Actual Width/ActualSize';
+import UseEffectAPI from './Components/Projects/UseEffect Fetch API/UseEffectAPI';
 
 function App() {
   return (
     <>
-      <ActualSize />
+      <UseEffectAPI />
     </>
   );
 }
