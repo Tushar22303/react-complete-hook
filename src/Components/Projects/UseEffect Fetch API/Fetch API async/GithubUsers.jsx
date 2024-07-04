@@ -1,19 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import './UseEffectAPI.css'
+import React from 'react'
 
-const UseEffectAPI = () => {
-
-    const [users, setUsers] = useState([]);
-
-    const getUsers = async () => {
-        const data = await fetch("https://api.github.com/users");
-        setUsers(await data.json())
-    }
-
-    useEffect(() => {
-        getUsers()
-    }, [])
-
+const GithubUsers = ({ users }) => {
     return (
         <>
             <div className="container-fluid">
@@ -32,7 +19,7 @@ const UseEffectAPI = () => {
                                                 </div>
                                                 <div className="ml-3 w-100">
                                                     <h4 className="mb-0 mt-0 textLeft"> {currElem.login}</h4>
-                                                    <span className="text-left">{currElem.node_id}</span>
+                                                    <span className="text-left">{currElem.type}</span>
                                                     <div className="p-2 mt-2 bg-primary d-flex justify-content-between rounded text-white stats">
                                                         <div className="d-flex flex-column">
                                                             <span className="articles">Articles</span>
@@ -62,4 +49,4 @@ const UseEffectAPI = () => {
     )
 }
 
-export default UseEffectAPI
+export default GithubUsers
